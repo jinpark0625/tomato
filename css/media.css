@@ -1,0 +1,905 @@
+
+/* desktop for section_2 */
+
+@media all and (min-width:1441px) and (max-width:2560px){
+	
+/* section_1	 */
+	
+	.hero_h1{
+		font-size: 32px;
+	}
+
+	.hero_btn a {
+		font-size: 20px;
+	}
+
+	
+/* section_2	 */
+	
+	.quote_h3{
+		font-size: 32px;
+	}
+
+	.intro_h3{
+		font-size: 24px;
+	}
+
+	.email{
+		font-size: 24px;
+	}
+	
+	.exp_title_h5{
+		font-size: 14px;
+	}
+	
+	.exp_sub_h5{
+		font-size: 14px;
+	}
+	
+	.exp_h5{
+		font-size: 14px;
+	}
+	
+	.item span{
+		font-size: 16px;
+	}
+
+}
+
+@media all and (min-width:1681px){
+	.hero_img_wrap{
+		margin: 0 0 0 10%;
+	}
+
+	.intro_h3{
+		font-size: 30px;
+	}
+	.introduction_text h4{
+		font-size: 28px;
+	}
+	.exp_title_h5{
+		font-size: 21px;
+	}
+
+	.exp_sub_h5{
+		font-size: 18px;
+	}
+
+	.exp_h5{
+		font-size: 18px;
+	}
+
+	#exp_skill::after {
+	width: 119px;
+	}
+	#exp_education::after {
+	width: 144px;
+	}
+	#exp_teaching::after{
+	width: 127px;
+	}
+
+}
+
+
+/* laptop 기준 */
+
+@media all and (min-width:1025Px) and (max-width:1440px) {
+
+	/* section_1 */
+
+	.hero_h1{
+		font-size: 32px;
+	}
+
+	.hero_btn a {
+		font-size: 20px;
+	}
+
+	/* section_2 */	
+
+	.quote_h3{
+		font-size: 32px;
+	}
+
+
+	.intro_h3{
+		font-size: 24px;
+	}
+
+	.email{
+		font-size: 24px;
+	}
+	
+	.exp_title_h5{
+		font-size: 14px;
+	}
+	
+	.exp_sub_h5{
+		font-size: 14px;
+	}
+	
+	.exp_h5{
+		font-size: 14px;
+	}
+
+	.introduction{
+		margin: 0 0 15px 0;
+	}
+
+	.intro_btn{
+		border-radius: 20px;
+		height: 40px;
+		width: 200px;
+	}
+
+	.item span{
+		font-size: 14px;
+	}
+
+}
+
+/* tablet 기준 */
+
+@media all and (min-width:769px) and (max-width:1024px) {
+
+	/* section_1 */
+
+	.hero_h1{
+		font-size: 22px;
+	}
+
+	.hero_btn a {
+		font-size: 14px;
+	}
+	
+	.hero_img_wrap{
+		height:60%;
+	}
+
+
+	/* section_2 */	
+
+	.intro_h3{
+		font-size: 18px;
+	}
+	
+	.email{
+		font-size: 18px;
+	}
+	
+	.exp_title_h5{
+		font-size: 12px;
+	}
+	
+	.exp_sub_h5{
+		font-size: 12px;
+	}
+	
+	.exp_h5{
+		font-size: 12px;
+	}
+
+	#about_wrap{
+		width: 80%;
+	}
+
+	.introduction{
+		margin: 0 0 15px 0;
+	}
+
+	.introduction_text h4{
+		width: 65%;
+	}
+
+	.intro_btn{
+		border-radius: 20px;
+		height: 40px;
+		width: 200px;
+	}
+
+
+#exp_skill::after{
+    width: 74px;
+}
+
+#exp_education::after{
+    width: 92px;
+}
+
+#exp_teaching::after{
+    width: 82px;
+}
+
+	.item span{
+		font-size: 12px;
+	}
+
+	.item_btn{
+		width: 200px;
+		height: 30px;
+		border-radius: 15px;
+		font-size: 10px;
+	}
+
+	.exp_des_wrap{
+		opacity: 1;
+	}
+
+}
+
+/* tablet & mobile 가로 기준 */
+
+@media all and (min-width:481px) and (max-width:768px) {
+
+	/* section_1 */	
+	.hero_text p {
+		left: unset;
+	}
+
+	.hero_text_p span {
+		font-size: 25px;
+	}
+
+	.hero_text p{
+		font-size: 25px;
+	}
+		/* section_2 */	
+
+		#section_2_wrap{
+			margin:7% 0 0 0;
+		}
+
+		#about_wrap{
+			height: 55%;
+		}
+
+		.intro_h3{
+			font-size: 18px;
+		}
+		
+		.exp_title_h5{
+			font-size: 12px;
+		}
+		
+		.exp_sub_h5{
+			font-size: 12px;
+		}
+		
+		.exp_h5{
+			font-size: 12px;
+		}
+	
+		.introduction{
+			margin: 0 0 40px 0;
+			flex-direction: column;
+		}	
+
+		.introduction_text{
+			margin: 0 0 20px 0;
+			width: 100%;
+		}
+
+		.introduction_email{
+			width: 100%;
+		}
+	
+		.intro_btn{
+			border-radius: 20px;
+			height: 40px;
+			width: 200px;
+		}
+
+		.exp_btn_wrap{
+			display: none;
+		}
+
+		.exp_btn{
+			border-radius: 20px;
+			height: 40px;
+		}
+
+		.experience_wrap{
+			display: flex;
+			flex-direction: column;
+			margin: 3% 0 0 0;;
+		}
+
+		.skill_wrap, .education_wrap, .teaching_wrap{
+			width: 100%;
+			margin: 0;
+		}
+
+		.exp_title_h5, .exp_sub_h5, .exp_h5{
+			font-size: 14px;
+		}
+
+
+		#about_wrap{
+			width: 80%;
+		}
+	
+		.introduction{
+			margin: 0 0 15px 0;
+		}
+	
+		.introduction_text h4{
+			width: 70%;
+			margin: 0px 10% 0 0;
+		}
+	
+		.intro_btn{
+			border-radius: 20px;
+			height: 40px;
+			width: 200px;
+		}
+	
+	
+		#exp_skill::after{
+			width: 84px;
+		}
+	
+		#exp_education::after{
+			width: 104px;
+		}
+	
+		#exp_teaching::after{
+			width: 91px;
+		}
+	
+		.item span{
+			font-size: 12px;
+		}
+	
+		.item_btn{
+			width: 200px;
+			height: 30px;
+			border-radius: 15px;
+			font-size: 10px;
+		}
+	
+		.exp_des_wrap{
+			opacity: 1;
+		}
+
+		/* items */
+
+	.item span{
+		font-size: 12px;
+	}
+	
+	.item span:nth-child(1){
+				margin: 0;	
+			}
+	
+
+	.item_btn{
+		width: 200px;
+		height: 30px;
+		border-radius: 15px;
+		font-size: 10px;
+	}
+
+	.preview_wrap{
+		width: 80%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.preview{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.browser{
+		display: block;
+	}
+
+	.project_detail_mobile{
+		display: none;
+	}
+
+	.item:nth-child(2), .item:nth-child(3){
+		display: none;
+	}
+
+	.prev_info_items{
+		display: flex;
+		width: 100%;
+	}
+
+	.item:first-child {
+		width: 40%;
+	}
+
+	.item:last-child{
+		width: 60%;
+	}
+
+}
+
+/* mobile 기준 */
+
+@media all and (min-width:377px) and (max-width:480px) {
+
+	/* section_1 */	
+
+	.hero_text p {
+		left: unset;
+	}
+
+	.hero_text_p span {
+		font-size: 20px;
+	}
+
+	.hero_text p{
+		font-size: 20px;
+	}
+	
+
+	.exp_btn_wrap{
+		display: none;
+	}
+
+			/* section_2 */	
+
+			#section_2_wrap{
+				margin:7% 0 0 0;
+			}
+
+			#about_wrap{
+				height: 70%;
+				width: 88%;
+			}
+	
+			.quote_h3{
+				font-size: 20px;
+			}
+
+			.quote_h4{
+				font-size: 20px;
+			}
+		
+			.email{
+				font-size: 18px;
+			}
+		
+			.intro_h3{
+				font-size: 16px;
+			}
+			
+			.email{
+				font-size: 18px;
+			}
+			
+			.exp_title_h5{
+				font-size: 12px;
+			}
+			
+			.exp_sub_h5{
+				font-size: 12px;
+			}
+			
+			.exp_h5{
+				font-size: 12px;
+			}
+		
+			.introduction{
+				margin: 0 0 40px 0;
+				flex-direction: column;
+			}	
+	
+			.introduction_text{
+				/* margin: 0 0 20px 0; */
+				width: 100%;
+			}
+
+			.space_3{
+				display: block;
+			}
+	
+			.introduction_email{
+				width: 100%;
+			}
+		
+			.intro_btn{
+				border-radius: 20px;
+				height: 40px;
+				width: 200px;
+			}
+	
+			.exp_btn_wrap{
+				display: none;
+			}
+	
+			.exp_btn{
+				border-radius: 20px;
+				height: 40px;
+			}
+	
+			.experience_wrap{
+				display: flex;
+				flex-direction: column;
+				margin: 3% 0 0 0;
+			}
+	
+			.skill_wrap, .education_wrap, .teaching_wrap{
+				width: 100%;
+				margin: 0;
+			}
+	
+			.exp_title_h5, .exp_sub_h5, .exp_h5{
+				font-size: 13px;
+			}
+
+
+		#about_wrap{
+			width: 80%;
+		}
+	
+		.introduction{
+			margin: 0 0 15px 0;
+		}
+	
+		.introduction_text h4{
+			width: 70%;
+			margin: 0px 6% 0 0;
+			font-size: 16px;
+		}
+	
+		.intro_btn{
+			border-radius: 20px;
+			height: 40px;
+			width: 200px;
+		}
+	
+	
+		#exp_skill::after{
+			width: 84px;
+		}
+	
+		#exp_education::after{
+			width: 104px;
+		}
+	
+		#exp_teaching::after{
+			width: 91px;
+		}
+	
+		.item span{
+			font-size: 12px;
+		}
+	
+		.item_btn{
+			width: 200px;
+			height: 30px;
+			border-radius: 15px;
+			font-size: 10px;
+		}
+	
+		.exp_des_wrap{
+			opacity: 1;
+		}
+
+
+
+
+
+			.browser{
+				display: none;
+			}
+		
+			.project_detail_mobile{
+				display: block;
+			}
+
+			.preview_wrap{
+				width: 80%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.preview{
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			/* .project_detail_mobile_mv{
+				width: 65%;
+				padding-top: 121%;
+			} */
+
+			.project_detail_mobile_mv{
+				width: 270px;
+				padding-top: 500px;
+			}
+			
+			.prev_info_items{
+				width: 100%;
+			}
+
+			.item:first-child {
+				width: 40%;
+			}
+
+			.item:last-child{
+				width: 60%;
+			}
+
+
+			.item:nth-child(2), .item:nth-child(3){
+				display: none;
+			}
+
+			.item span{
+				font-size: 12px;
+			}
+	
+	.item span:nth-child(1){
+				margin: 0;	
+			}
+	
+
+			.item_btn {
+				border-radius: 16.5px;
+				height: 33px;
+				width: 200px;
+				font-size: 12px;
+				line-height: 13px;
+				letter-spacing:4px;
+			}
+    
+      .project_detail_mobile_mv img{
+        width: 80%;
+        position: absolute;
+        bottom: 12%;
+        left: calc(50% - 108px);
+      }
+	
+
+}
+
+/* mobile 기준 */
+
+@media all and (min-width:300px) and (max-width:376px) {
+	
+	/* section_1 */	
+
+	.hero_text p {
+		left: unset;
+	}
+
+	.hero_text_p span {
+		font-size: 14px;
+	}
+
+	.hero_text p{
+		font-size: 14px;
+	}
+	
+
+
+
+			/* section_2 */	
+
+			#section_2_wrap{
+				margin:7% 0 0 0;
+			}
+
+			#about_wrap{
+				height: 70%;
+				width: 88%;
+			}
+	
+			.quote_h3{
+				font-size: 14px;
+			}
+
+			.quote_h4{
+				font-size: 14px;
+			}
+		
+			.email{
+				font-size: 14px;
+			}
+		
+			.intro_h3{
+				font-size: 14px;
+			}
+			
+			.email{
+				font-size: 14px;
+			}
+			
+			.exp_title_h5{
+				font-size: 12px;
+			}
+			
+			.exp_sub_h5{
+				font-size: 12px;
+			}
+			
+			.exp_h5{
+				font-size: 12px;
+			}
+		
+			.introduction{
+				margin: 0 0 40px 0;
+				flex-direction: column;
+			}	
+	
+			.introduction_text{
+				/* margin: 0 0 20px 0; */
+				width: 100%;
+			}
+
+			.space_3{
+				display: block;
+			}
+	
+			.introduction_email{
+				width: 100%;
+			}
+		
+			.intro_btn{
+				border-radius: 15px;
+				height: 30px;
+				width: 200px;
+			}
+	
+			.exp_btn_wrap{
+				display: none;
+			}
+	
+			.exp_btn{
+				border-radius: 15px;
+				height: 30px;
+			}
+
+			.experience_wrap{
+				display: flex;
+				flex-direction: column;
+				margin: 3% 0 0 0;
+			}
+	
+			.skill_wrap, .education_wrap, .teaching_wrap{
+				width: 100%;
+				margin: 0;
+			}
+	
+			.exp_title_h5, .exp_sub_h5, .exp_h5{
+				font-size: 12px;
+			}
+
+
+		#about_wrap{
+			width: 80%;
+		}
+	
+		.introduction{
+			margin: 0 0 15px 0;
+		}
+	
+		.introduction_text h4{
+			width: 70%;
+			margin: 0px 6% 0 0;
+			font-size: 16px;
+		}
+	
+		.intro_btn{
+			border-radius: 20px;
+			height: 40px;
+			width: 200px;
+		}
+	
+	
+		#exp_skill::after{
+			width: 84px;
+		}
+	
+		#exp_education::after{
+			width: 104px;
+		}
+	
+		#exp_teaching::after{
+			width: 91px;
+		}
+	
+		.item span{
+			font-size: 12px;
+		}
+	
+		.item_btn{
+			width: 200px;
+			height: 30px;
+			border-radius: 15px;
+			font-size: 10px;
+		}
+	
+		.exp_des_wrap{
+			opacity: 1;
+		}
+
+
+			.browser{
+				display: none;
+			}
+		
+			.project_detail_mobile{
+				display: block;
+			}
+
+			.preview_wrap{
+				width: 80%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.preview{
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.project_detail_mobile_mv{
+				width: 220px;
+				padding-top: 410px;
+			}
+			
+			.prev_info_items{
+				width: 100%;
+			}
+
+			.item:first-child {
+				width: 35%;
+			}
+
+			.item:last-child{
+				width: 65%;
+			}
+
+
+			.item:nth-child(2), .item:nth-child(3){
+				display: none;
+			}
+
+			.item span{
+				font-size: 12px;
+			}
+	
+	.item span:nth-child(1){
+				margin: 0;	
+			}
+	
+
+			.item_btn {
+				border-radius: 16.5px;
+				height: 33px;
+				width: 160px;
+				font-size: 10px;
+				line-height: 13px;
+				letter-spacing:4px;
+			}
+	
+
+}

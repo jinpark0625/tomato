@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/fullpage.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/media.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="title_logo" onclick="location.href='index.html'">
+      <img src="img/logo.png" alt="logo">
+    </div>
+
+    <div class="navicon">
+      <div id="navicon_upper"></div>
+      <div id="navicon_inner"></div>
+      <div id="navicon_lower"></div>
+    </div>
+    
+    <nav id="gnb">
+      <div class="gnb_wrap">
+        <div id="home" class="gnb_menu">
+          <a href="">Home</a>
+        </div>
+        <div id="work" class="gnb_menu" onclick="location.href='#section2'">
+          <a href="work_page/work_page.html">Work</a>
+        </div>
+        <div id="about" class="gnb_menu">
+          <a href="">About</a>
+        </div>
+        <div id="contact" class="gnb_menu">
+          <a href="">Contact</a>
+        </div>
+        <div class="cursor"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div id="fullpage">
+
+      <section id="section_1" class="section">
+        <div id="hero_wrap">
+          <div class="hero_img_wrap">
+            <!-- <img src="img/4.jpg" alt=""> -->
+          </div>
+
+          <div class="hero_text_wrap">
+            <div class="hero_text">
+              <p class="hero_text_p">
+                Today<br/>
+                Makes<br/>
+                Tomorrow.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="section_2" class="section fp-scrollable">
+        <div id="section_2_wrap">
+          <div id="about_wrap">
+            <p class="hero_text_p">
+              안녕하세요,<br/>
+              토마토 프로젝트 입니다.
+            </p>
+          </div>
+          </div>
+      </section>
+
+      <section id="section_3" class="section fp-scrollable">
+        <div id="section_3_wrap">
+          <div id="about_wrap">
+            <p class="hero_text_p">
+              안녕하세요,<br/>
+              토마토 프로젝트 입니다.
+            </p>
+          </div>
+          </div>
+      </section>
+
+      <section id="section_3" class="section">
+        <div class="preview_wrap" id="preview_two">
+
+        </div>
+      </section>
+
+      <section class="section fp-auto-height">
+        <div id="footer">
+          <div class="footer_wrap">
+            <div class="say_hello">
+              <a href="mailto:jinpark0625@gmail.com?Subject=Hello" target="_top" class="say_hi" onmouseover="hi()"
+                onmouseout="bye()">
+                Want to say hi?
+              </a>
+              <a href="mailto:jinpark0625@gmail.com?Subject=Hello" target="_top" class="say_bye" onmouseover="hi()"
+                onmouseout="bye()">
+                Hello Jin~!
+              </a>
+            </div>
+            <div class="footer_contact_wrap">
+              <div class="footer_contact">
+                <div>
+                  <a href="mailto:jinpark0625@gmail.com?Subject=Hello" target="_top">
+                    jinpark0625@gmail.com
+                  </a>
+                </div>
+                <div class="phone_num">
+                  010-2390-0625
+                </div>
+                <div class="footer_social">
+                  <div>
+                    <a href="#">
+                      LinkedIn
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#">
+                      Instagram
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer_copyright">
+                <div>© 2020 by Jin Park ALL RIGHTS RESERVED.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript" src="js/scrolloverflow.js"></script>
+  <script type="text/javascript" src="js/fullpage.js"></script>
+
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+
+      verticalCentered: true,
+      navigation: true,
+      navigationPosition: 'left',
+      scrollingSpeed: 1000,
+      afterResize: function (width, height) { },
+      scrollOverflow: true
+
+    });
+
+  </script>
+
+</body>
+
+</html>
